@@ -1,0 +1,10 @@
+puts "Seja bem vindo(a) à nossa biblioteca!"
+
+puts "Por favor realize o Check-In"
+puts "Nome:"
+nome = gets.chomp
+puts "Sobrenome: "
+sob = gets.chomp
+puts "Idade: "
+idade = gets.chomp
+puts "Olá #{nome} #{sob}, #{idade} anos"
